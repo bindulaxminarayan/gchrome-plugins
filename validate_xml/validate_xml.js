@@ -8,13 +8,10 @@ var isXML;
  }catch(e){
   isXML = false;
  }
- if(isXML){
+ if(isXML)
  $('#result').text("Valid XML!"); 
-}
- else{
+ else
   $('#result').text("Invalid XML!");
- 
-}
 }
 window.onload=function(){
 $("#button1").click(function() {
