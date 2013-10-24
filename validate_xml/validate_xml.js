@@ -1,20 +1,23 @@
-function validate_xml(obj){
-$('#content').text(obj.value);
-var input_xml = $('#content').text();
+function validate_xml(){
+var input_xml = $('#content').val();
 var isXML;
 //Validate the XML
  try
-	 {
- 	   isXML = $.parseXML(input_xml);			
+  {
+  isXML = $.parseXML(input_xml);
  }catch(e){
-           isXML = false;
- } 
+  isXML = false;
+ }
  if(isXML){
-   isXML=true;
-   alert("true");
+ $('#result').text("Valid XML!"); 
 }
  else{
-   isXML=false; 
-   alert("false");
+  $('#result').text("Invalid XML!");
+ 
 }
+}
+window.onload=function(){
+$("#button1").click(function() {
+  validate_xml(this);
+});
 }
