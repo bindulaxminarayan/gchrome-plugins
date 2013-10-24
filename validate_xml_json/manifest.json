@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "XML/JSON Validator",
+  "description": "XML/JSON Validator",
+  "version": "1.0",
+  "author": "Bindu Laxminarayan",
+  "browser_action": {
+  "default_icon": "icon.png",
+  "default_popup": "input.html"
+  }
+}
