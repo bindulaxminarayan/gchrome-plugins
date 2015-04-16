@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "NewsBin",
+  "description": "Gets the latest News From Google",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+	"default_title": "News"
+  },
+  "icons": { "16": "icon.png",
+            "48": "icon.png" },
+  "permissions": [
+    "activeTab",
+    "https://news.google.com/"
+  ]
+}
