@@ -1,0 +1,18 @@
+{
+  "name": "LnkExpand",
+  "description": "Expand all the links in new tabs. Default Max tabs : 100",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "<all_urls>"
+  ],
+  "background": {
+    "scripts": ["linkExpand.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "lnkExp"
+  },
+  "manifest_version": 2
+}
