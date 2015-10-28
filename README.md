@@ -1,7 +1,7 @@
 # gchrome-plugins
-Google Chrome Plugins
+Google Chrome Extensions
 
-NewsBin:
+HeadLines:
 This plugin pulls all the headlines from the Google News and displays as links. The user can click on the link to go to the
 actual website that contains the news
 
