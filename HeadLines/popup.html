@@ -5,7 +5,7 @@
 	<h1 align="center">HeadLines-Google News</h1>
 	<style>
 	body {
-		background-color: #eeeeee;
+		background-color: #d5e1e5;
 		font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
 		font-size: 100%;
 	}
@@ -13,13 +13,23 @@
 		width: 500px !important;
 	}
 	a{
-		color:#000000;
-	}
+        color: #000000;
+        text-decoration: none;
+    }
+    a:visited{
+        color: #0000FF;
+    }
+    a:hover{
+        background : #098ba7;
+        color: #ffffff;
+    }
 	</style>
 	<script src="news.js"></script>
 </head>
 <body>
-	<text id="lastUpdated"></text>
+    <button type="button" onclick="reload()">Refresh</button>
+    <br/>
+    <text id="lastUpdated"></text>
 	<div id="newsList"></div>
 </body>
 </html>
